@@ -1,0 +1,377 @@
+html,
+body {
+	font-size: 100%;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	margin: 0;
+	font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Glegoo', serif;
+	margin: 0;
+}
+
+ul,
+label {
+	margin: 0;
+	padding: 0;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+.mail h3 {
+	font-size: 2em;
+	color: #212121;
+	position: relative;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.mail h3:before {
+	content: '';
+	position: absolute;
+	top: 27%;
+	left: 29%;
+	background: #ff5063;
+	height: 1px;
+	width: 10%;
+}
+
+.mail h3:after {
+	content: '';
+	position: absolute;
+	bottom: 79%;
+	right: 43%;
+	background: #212121;
+	height: 1px;
+	width: 10%;
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+}
+
+
+/*-- mail -------------------------------------------------------------------------------------*/
+.agile_mail_grids {
+	margin: 3em 0 0;
+}
+
+.contact-left h4 {
+	font-size: 1.5em;
+	color: #3c43a4;
+	margin: 0 0 1em;
+}
+
+.contact-left p {
+	color: #999;
+	line-height: 1.8em;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.contact-left p span {
+	color: #212121;
+	font-weight: 700;
+}
+
+.contact-left ul {
+	padding: 1em 0 0;
+	margin: 0;
+}
+
+.contact-left ul li {
+	list-style-type: none;
+	margin: 0 0 1em;
+	font-size: 14px;
+	color: #999;
+}
+
+.contact-left ul li a {
+	color: #999;
+	text-decoration: none;
+}
+
+.contact-left ul li a:hover {
+	color: #3c43a4;
+}
+
+.contact-left input[type="text"],
+.contact-left input[type="email"],
+.contact-left textarea {
+	background: none;
+	border: 1px solid #999;
+	border-top: none;
+	color: #424341;
+	padding: 10px;
+	font-size: 14px;
+	outline: none;
+}
+
+.contact-left input[type="text"],
+.contact-left input[type="email"] {
+	width: 32.7%;
+	float: left;
+}
+
+.contact-left input[type="email"] {
+	margin: 0 5px;
+}
+
+.contact-left textarea {
+	min-height: 200px;
+	resize: none;
+	width: 100%;
+	margin: 1.5em 0;
+}
+
+.contact-left input[type="submit"] {
+	outline: none;
+	color: #ffffff;
+	font-size: 1em;
+	padding: 10px 0;
+	width: 35%;
+	background: #ff5063;
+	border: none;
+	transition: .5s all;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+}
+
+.contact-left input[type="submit"]:hover {
+	background: #3c43a4;
+}
+
+.contact-bottom {
+	margin: 3em 0 0;
+}
+
+.contact-bottom iframe {
+	width: 100%;
+	min-height: 300px;
+}
+
+/*-- //mail --*/
+/*-- start-responsive-design ---------------------------------------------------------------------------*/
+
+@media (max-width: 1280px) {
+
+	.mail {
+		padding: 4em 0;
+	}
+
+}
+
+@media (max-width: 1080px) {
+
+	.mail h3:before {
+		left: 22%;
+		width: 15%;
+	}
+
+	.mail h3:after {
+		right: 40%;
+		width: 13%;
+	}
+
+
+	.w3agile_newsletter_right input[type="email"] {
+		width: 82%;
+	}
+
+
+
+	.contact-left input[type="text"],
+	.contact-left input[type="email"] {
+		width: 32.6%;
+	}
+}
+
+@media (max-width:991px) {
+
+	.mail,
+	.w3l_related_products {
+		padding: 3em 0;
+	}
+
+	.mail h3,
+	h3.agileits-title {
+		font-size: 1.8em;
+	}
+
+	.mail h3:before {
+		left: 18%;
+	}
+
+	.w3agile_newsletter_right input[type="email"] {
+		width: 85%;
+	}
+
+
+	.review_grids input[type="email"],
+	.review_grids textarea {
+		width: 48.6%;
+	}
+
+
+	.contact-left:nth-child(2) {
+		margin: 2em 0 0;
+	}
+
+	.contact-left input[type="text"],
+	.contact-left input[type="email"] {
+		width: 32.84%;
+	}
+
+	.contact-left input[type="text"],
+	.contact-left input[type="email"] {
+		width: 32%;
+	}
+
+}
+
+
+@media (max-width:640px) {
+
+	.mail h3 {
+		font-size: 1.6em;
+	}
+
+	.mail {
+		padding: 2em 0;
+	}
+
+	.w3agile_newsletter_right input[type="email"] {
+		width: 83%;
+	}
+
+	.review_grids input[type="text"],
+	.review_grids input[type="email"],
+	.review_grids textarea {
+		width: 48.2%;
+	}
+
+	.contact-left input[type="text"],
+	.contact-left input[type="email"] {
+		width: 32.7%;
+	}
+
+	.mail h3:before {
+		left: 18%;
+	}
+
+	.mail h3:before {
+		left: 25% !important;
+	}
+
+	.contact-left input[type="text"],
+	.contact-left input[type="email"] {
+		width: 32.6%;
+	}
+}
+
+
+@media (max-width:480px) {
+
+	.mail h3:before {
+		left: 7%;
+		width: 20%;
+	}
+
+	.mail h3:after {
+		right: 36%;
+		width: 20%;
+	}
+
+	.w3agile_newsletter_right input[type="submit"] {
+		width: 18%;
+	}
+
+	.w3agile_newsletter_right input[type="email"] {
+		width: 82%;
+	}
+
+	.review_grids input[type="text"],
+	.review_grids input[type="email"],
+	.review_grids textarea {
+		width: 100%;
+	}
+
+	.review_grids input[type="email"] {
+		margin: 1em 0 0;
+	}
+
+
+
+	.mail h3:before {
+		left: 15% !important;
+	}
+
+	.agile_mail_grids {
+		margin: 1em 0 0;
+	}
+
+	.contact-left h4 {
+		font-size: 1.2em;
+	}
+
+	.contact-left input[type="text"],
+	.contact-left input[type="email"] {
+		width: 100%;
+	}
+
+	.contact-left input[type="email"] {
+		margin: 1.5em 0;
+	}
+
+	.contact-left textarea {
+		min-height: 150px;
+	}
+
+	.contact-left input[type="submit"] {
+		width: 55%;
+	}
+
+	.contact-bottom iframe {
+		min-height: 200px;
+	}
+
+
+	@media (max-width: 414px) {
+
+		.mail h3:before {
+			left: 1%;
+		}
+
+	}
+
+	@media (max-width:384px) {
+
+		.mail h3 {
+			font-size: 1.4em;
+		}
+	}
+
+
+	@media (max-width:320px) {
+
+		.mail h3 {
+			font-size: 1.2em;
+		}
+
+	}
+}
