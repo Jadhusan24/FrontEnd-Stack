@@ -1,4 +1,6 @@
 # FrontEnd-Stack
+[![LinkedIN](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadhusan24/)
+
 ## Contact-LandingPage
  A Responsive Contact Page-template (Bootstrap | HTM | CSS).
 
@@ -35,14 +37,13 @@ Under-Construction of A Webpage
 # Music-Web-Player
 A Frontend-Design For a Music-web-player  <br/>
 
-[![LinkedIN](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadhusan24/)
+    Priority was the Design.
 
 ### Created With:
   | `1. Html`       |
   | `2. Css`        | 
-  | `3. Sass`         |
-### Guide  
-    Priority was the Design.
+  | `3. Sass`       |
+
 ### Final!
 
 ![Screenshot](./screenshots/music.jpg)
