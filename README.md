@@ -1,5 +1,4 @@
 # FrontEnd-Stack
-
 # Contact-LandingPage
  A Responsive Contact Page-template (Bootstrap | HTM | CSS).
 
@@ -23,7 +22,7 @@ iii) If You Like This Landing Page Of Mine, Stay Tuned For Upcoming Projects!.<b
 
 ## THIS IS HOW IT LOOKS!
 
-![Screenshot](./contact.jpg)
+![screenshot](./contact.jpg)
 
 -------------------------------------------------------------------------------------------------------<br/>
 
@@ -50,7 +49,7 @@ If You Like This Landing Page Of Mine, Stay Tuned For Upcoming Projects!.<br/>
 Have A NiceDAy! :)
 
 
-![Screenshot](./under.JPG)
+![screenshot](./under.JPG)
 
 -------------------------------------------------------------------------------------------------------<br/>
 # Music-Web-Player
@@ -66,7 +65,7 @@ A Frontend-Design For a Music-web-player  <br/>
     Priority was the Design.
 ## THIS IS HOW IT LOOKS!<br/>
 
-![Screenshot](./music.jpg)
+![screenshot](./music.jpg)
 Partner @keshan-spec
 
 -------------------------------------------------------------------------------------------------------<br/>
@@ -93,8 +92,5 @@ iii) If You Like This Landing Page Of Mine, Stay Tuned For Upcoming Projects!. <
 
 ## THIS IS HOW IT LOOKS!
   
-![Screenshot](./netflix.jpg)
-
-
-
+![screenshot](./netflix.jpg)
 
