@@ -22,7 +22,7 @@ iii) If You Like This Landing Page Of Mine, Stay Tuned For Upcoming Projects!.<b
 
 ## THIS IS HOW IT LOOKS!
 
-![screenshot](./contact.jpg)
+![Screenshot](./screenshot/contact.jpg)
 
 -------------------------------------------------------------------------------------------------------<br/>
 
@@ -49,7 +49,7 @@ If You Like This Landing Page Of Mine, Stay Tuned For Upcoming Projects!.<br/>
 Have A NiceDAy! :)
 
 
-![screenshot](./under.JPG)
+![Screenshot](./screenshot/under.JPG)
 
 -------------------------------------------------------------------------------------------------------<br/>
 # Music-Web-Player
@@ -65,7 +65,7 @@ A Frontend-Design For a Music-web-player  <br/>
     Priority was the Design.
 ## THIS IS HOW IT LOOKS!<br/>
 
-![screenshot](./music.jpg)
+![Screenshot](./screenshot/music.jpg)
 Partner @keshan-spec
 
 -------------------------------------------------------------------------------------------------------<br/>
@@ -92,5 +92,5 @@ iii) If You Like This Landing Page Of Mine, Stay Tuned For Upcoming Projects!. <
 
 ## THIS IS HOW IT LOOKS!
   
-![screenshot](./netflix.jpg)
+![Screenshot](./screenshot/netflix.jpg)
 
